@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fútbol Libre TV</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#f2f2f2;
+        }
+
+        /* HEADER */
+
+        header{
+            width:100%;
+            background:white;
+            padding:20px;
+            border-bottom:1px solid #ccc;
+        }
+
+        .menu{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        .logo{
+            color:green;
+            font-size:35px;
+            font-weight:bold;
+        }
+
+        nav a{
+            text-decoration:none;
+            color:#222;
+            margin-left:20px;
+            font-weight:bold;
+        }
+
+        /* CONTENIDO */
+
+        .container{
+            width:70%;
+            margin:auto;
+            margin-top:30px;
+            background:white;
+            padding:30px;
+        }
+
+        .titulo{
+            text-align:center;
+            color:#00695c;
+            font-size:50px;
+            margin-bottom:20px;
+        }
+
+        .descripcion{
+            text-align:center;
+            font-size:22px;
+            margin-bottom:30px;
+            color:#444;
+        }
+
+        /* BUSCADOR */
+
+        .busqueda{
+            display:flex;
+            gap:10px;
+            margin-bottom:20px;
+        }
+
+        .busqueda input{
+            width:50%;
+            padding:12px;
+            border:1px solid #ccc;
+            border-radius:5px;
+        }
+
+        .busqueda select{
+            width:50%;
+            padding:12px;
+            border:1px solid #ccc;
+            border-radius:5px;
+        }
+
+        /* TABLA */
+
+        .agenda{
+            background:green;
+            color:white;
+            text-align:center;
+            padding:15px;
+            border-radius:5px 5px 0 0;
+            font-size:25px;
+            font-weight:bold;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            background:white;
+        }
+
+        table tr{
+            border-bottom:1px solid #ddd;
+        }
+
+        table td{
+            padding:18px;
+            font-size:20px;
+        }
+
+        .hora{
+            font-weight:bold;
+            width:100px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="menu">
+
+            <div class="logo">
+                Fútbol Libre
+            </div>
+
+            <nav>
+                <a href="#">L1MAX</a>
+                <a href="#">DirecTV Sports</a>
+                <a href="#">ESPN1</a>
+                <a href="#">ESPN2</a>
+                <a href="#">Fox Sports</a>
+                <a href="#">GOLPERU</a>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+
+    <div class="container">
+
+        <h1 class="titulo">Fútbol Libre TV</h1>
+
+        <p class="descripcion">
+            Fútbol libre TV online en vivo y en directo.
+            Canales gratuitos para ver partidos de fútbol.
+        </p>
+
+        <!-- BUSCADOR -->
+
+        <div class="busqueda">
+
+            <input type="text" placeholder="Buscar por evento">
+
+            <select>
+                <option>-- MAS EVENTOS --</option>
+                <option>Libertadores</option>
+                <option>Champions League</option>
+                <option>Liga 1</option>
+            </select>
+
+        </div>
+
+        <!-- AGENDA -->
+
+        <div class="agenda">
+            Agenda - 29 de mayo de 2026
+        </div>
+
+        <!-- TABLA -->
+
+        <table>
+
+            <tr>
+                <td class="hora">10:00</td>
+                <td>Sorteo Octavos de Final: Copa Libertadores</td>
+            </tr>
+
+            <tr>
+                <td class="hora">13:00</td>
+                <td>Serie B: Monza vs Catanzaro</td>
+            </tr>
+
+            <tr>
+                <td class="hora">13:30</td>
+                <td>Amistoso: Bosnia vs Macedonia</td>
+            </tr>
+
+            <tr>
+                <td class="hora">15:00</td>
+                <td>Liga 1: Atlético Grau vs Deportivo Moquegua</td>
+            </tr>
+
+            <tr>
+                <td class="hora">17:00</td>
+                <td>Primera División: Cobresal vs Ñublense</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</body>
+</html>
