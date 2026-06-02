@@ -269,4 +269,7 @@ este tipo de aplicar estilo nos permite hacer uso de la etiqueta `style` para po
 nuestrs elementos, por convencion esta etiqueta al ser de configuracion se debe usar 
 en 
 ### 3. archivo externo  
-
+es la manera correcta y mas usada para aplicar estilo dentro de un documento `html` 
+para asociar un archivo externo lo tenemos que hacer en nuestra etiqueta de configuracion
+`head` , haciendo uso de la etiqueta `link` a travez de su atributo `href`, en este atributo
+le indicamos la ruta del archivo que se debe asociar 
