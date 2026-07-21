@@ -48,5 +48,15 @@ p{
 
  /*FUENTE*/
  .fuente-estilizada{
-   font-family:'Segoe UI',Verdana, Geneva, sans-serif;
+   font-family:'Black Ops One',Verdana, sans-serif;
+   font-size: 1em; /*tamaño a la fuente, 1 em equivale a 12px*/
+   font-weight: 900; /*especificar el grosor de la linea de la fuente sus valores van de 
+   del 100-900 se relaciona con el estilo negrita siendo 900 ms negrita y 100 la linea mas delgada*/
+   line-height: 2; /*espaciado entre lineas*/
+ }
+ /*transformaciones*/
+ .text-transfor{
+   text-align: center;
+   text-decoration: 4px underline dashed purple;
+   text-transform: capitalize; /*tenemos las propiedades uppercase(mayuscula) lowercase(minuscula)*/
  }
