@@ -1,0 +1,52 @@
+/*selectores basicos*/
+/*Por etiqueta*/
+p{
+    color: blue; /*esta propiedad es para darle color al contenido*/
+}
+ /*por clase (reutilizable)*/
+ .boton{
+    background: red ;
+ }
+ /*por atributo*/
+ input[type="text"]{
+    color: brown;
+ }
+ /*combinado: hijo directo*/
+ nav > a{
+    text-decoration: none; /*propiedad para quitar el subrrayado de las etiquetas a* */
+ }
+
+ /* modelo de caja*/ 
+ div{
+    background: pink;
+
+    width: 100px;  /*ancho del elemento*/
+    height: 80px;  /*alto del elemento*/
+    
+    /* se usa para el espacio que debe tener el contenido dentro de la caja*/
+    padding-top: 5px;
+    padding-left: 10px;
+    /*padding:5px; esto le dara 5 pixeles a los 4 lados del padding */
+
+    border-radius: 10px; /*esquinas redondeadas*/
+    border: 2px solid black; /**/
+
+    margin-top: 20px;
+ }
+ /*COLORES. FUENTE Y ESTILO*/
+ /*COLORES*/
+ .color-hexa{
+   color: #a3fb2b;
+ }
+ .color-rgb{
+   color:rgb(251,43,217); /*cada valor se relaciona posicionalmente a las letras y sus 
+   valores van del 0-255*/
+ }
+ .color-trans{
+   color:rgba(251,43,217,0.5);
+ }
+
+ /*FUENTE*/
+ .fuente-estilizada{
+   font-family:'Segoe UI',Verdana, Geneva, sans-serif;
+ }

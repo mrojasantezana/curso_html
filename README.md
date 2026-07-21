@@ -273,3 +273,17 @@ es la manera correcta y mas usada para aplicar estilo dentro de un documento `ht
 para asociar un archivo externo lo tenemos que hacer en nuestra etiqueta de configuracion
 `head` , haciendo uso de la etiqueta `link` a travez de su atributo `href`, en este atributo
 le indicamos la ruta del archivo que se debe asociar 
+
+una ruta absoluta es la direccion completa del archivo 
+ejm: `C:\Users\HP\Documents\CURSO_HTML`
+y una ruta relativa es la direccion actual del proyecto 
+ejm: `./`
+**ejemplo** 
+```txt
+## tenemos en mi carpeta un archivo llamado `logo.png` como acceder a este archivo 
+usando su ruta absoluta 
+C:\Users\HP\Documents\CURSO_HTML/logo.png
+# usando la ruta relativa 
+./logo.png
+```
+
